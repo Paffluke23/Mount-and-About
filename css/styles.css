@@ -519,3 +519,14 @@ a {
     flex-wrap: wrap;
   }
 }
+.map-box {
+  padding: 0;
+  min-height: 350px;
+  overflow: hidden;
+}
+
+.map-box iframe {
+  display: block;
+  width: 100%;
+  min-height: 350px;
+}
