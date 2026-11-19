@@ -911,3 +911,88 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* =========================================
+   21+ ACTIVITIES & STORES
+   ========================================= */
+
+.adult-groups {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.adult-group {
+  background-color: #f7f4ec;
+  border: 2px solid #075ca8;
+  border-radius: 10px;
+  padding: 20px 25px;
+}
+
+.adult-group h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #172c59;
+  margin: 0 0 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #075ca8;
+}
+
+.adult-group .place-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.adult-group .place-list li {
+  margin-bottom: 11px;
+}
+
+.adult-group .place-list a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #111111;
+  -webkit-text-stroke: 0;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.adult-group .place-list a:hover {
+  color: #075ca8;
+  text-decoration: underline;
+}
+
+/* Navigation between the two 21+ pages */
+
+.category-switch-link {
+  display: inline-block;
+  width: fit-content;
+  padding: 12px 20px;
+  background-color: #075ca8;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.category-switch-link:hover {
+  background-color: #172c59;
+  color: #ffffff;
+}
+
+@media (max-width: 760px) {
+  .adult-group {
+    padding: 18px;
+  }
+
+  .adult-group h2 {
+    font-size: 1.2rem;
+  }
+}
+
