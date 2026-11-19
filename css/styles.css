@@ -815,6 +815,96 @@ a {
   }
 }
 
+/* =========================================
+   ORGANIZED SPORTS CATEGORIES
+   ========================================= */
+
+.sports-groups {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.sports-group {
+  background-color: #f7f4ec;
+  border: 2px solid #075ca8;
+  border-radius: 10px;
+  padding: 20px 25px;
+}
+
+.sports-group h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.35rem;
+  font-style: normal;
+  font-weight: 700;
+  color: #172c59;
+
+  margin: 0 0 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #075ca8;
+}
+
+.sports-group .place-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sports-group .place-list li {
+  margin-bottom: 11px;
+}
+
+.sports-group .place-list a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  font-style: normal;
+
+  color: #111111;
+  -webkit-text-stroke: 0;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+.sports-group .place-list a:hover {
+  color: #075ca8;
+  text-decoration: underline;
+}
+
+/* Featured sports links */
+
+.highlights .highlight a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+
+  background-color: #075ca8;
+  color: #ffffff;
+
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.highlights .highlight a:hover {
+  background-color: #172c59;
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 760px) {
+
+  .sports-group {
+    padding: 18px;
+  }
+
+  .sports-group h2 {
+    font-size: 1.2rem;
+  }
+
+}
+
 
 
   .shopping-group h2 {
