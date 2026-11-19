@@ -432,3 +432,27 @@ a {
   }
 
 }
+/* Improved readability for location lists */
+
+.place-list a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  color: #111111;
+
+  -webkit-text-stroke: 0;
+  text-shadow: none;
+
+  text-decoration: none;
+}
+
+.place-list a:hover {
+  color: #075ca8;
+  text-decoration: underline;
+}
+
+.place-list li {
+  margin-bottom: 12px;
+}
