@@ -456,3 +456,43 @@ a {
 .place-list li {
   margin-bottom: 12px;
 }
+/* About Page */
+
+.about-content {
+  max-width: 850px;
+  margin: 40px auto 70px;
+  padding: 35px;
+
+  background-color: #f7f4ec;
+  border: 2px solid #075ca8;
+  border-radius: 12px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+  line-height: 1.8;
+}
+
+.about-content h2 {
+  color: #172c59;
+  font-size: 1.6rem;
+  margin-top: 25px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.about-button {
+  display: inline-block;
+  background-color: #075ca8;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-button:hover {
+  background-color: #172c59;
+}
