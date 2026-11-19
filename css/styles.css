@@ -1001,3 +1001,46 @@ a {
   }
 }
 
+/* =========================================
+   HEADER WITHOUT SEARCH BAR
+   ========================================= */
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-left: auto;
+}
+
+.header-nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #172c59;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  color: #075ca8;
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  .site-header {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .header-nav {
+    margin-left: 0;
+    gap: 20px;
+  }
+}
+
