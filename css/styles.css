@@ -1044,3 +1044,57 @@ a {
   }
 }
 
+/* =========================================
+   HOMEPAGE CATEGORY FONT IMPROVEMENTS
+   ========================================= */
+
+.category-list {
+  list-style: none;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+.category-list li {
+  margin-bottom: 18px;
+}
+
+.category-list a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.65rem;
+  font-weight: 700;
+  font-style: normal;
+
+  color: #172c59;
+
+  -webkit-text-stroke: 0;
+  text-shadow: none;
+  text-decoration: none;
+
+  display: inline-block;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.category-list a::before {
+  content: "›";
+  color: #075ca8;
+  margin-right: 16px;
+  font-weight: bold;
+}
+
+.category-list a:hover {
+  color: #075ca8;
+  transform: translateX(5px);
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 760px) {
+  .category-list {
+    padding: 15px;
+  }
+
+  .category-list a {
+    font-size: 1.35rem;
+  }
+}
+
