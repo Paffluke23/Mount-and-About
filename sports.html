@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +7,8 @@
 
   <title>Sports | Mount & About</title>
 
-  <meta
-    name="description"
-    content="Explore Cincinnati sports teams and events."
-  >
+  <meta name="description"
+    content="Explore professional sports, college athletics, and sporting events around Cincinnati.">
 
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -22,35 +21,153 @@
 
     <h1 class="title display">Sports</h1>
 
+    <p class="category-intro">
+      Discover Cincinnati's exciting sports scene!
+      From professional football and baseball to college
+      athletics and unique sporting events, find your next
+      game or competition to attend.
+    </p>
+
     <section class="category-grid">
 
-      <div>
-        <ul class="place-list">
+      <div class="sports-groups">
 
-          <li><a href="https://www.google.com/search?q=Cincinnati+Cyclones" target="_blank">Cincinnati Cyclones</a></li>
-          <li><a href="https://www.google.com/search?q=Cincinnati+Bengals" target="_blank">Cincinnati Bengals</a></li>
-          <li><a href="https://www.google.com/search?q=Cincinnati+Reds" target="_blank">Cincinnati Reds</a></li>
-          <li><a href="https://www.google.com/search?q=Cincinnati+Open+Tennis" target="_blank">Cincinnati Open</a></li>
-          <li><a href="https://www.google.com/search?q=UC+Bearcats+Basketball" target="_blank">UC Bearcats Basketball</a></li>
-          <li><a href="https://www.google.com/search?q=FC+Cincinnati" target="_blank">FC Cincinnati</a></li>
-          <li><a href="https://www.google.com/search?q=Cincinnati+Cougars" target="_blank">Cincinnati Cougars</a></li>
-          <li><a href="https://www.google.com/search?q=Cincinnati+Roller+Derby" target="_blank">Cincinnati Roller Derby</a></li>
-          <li><a href="https://www.google.com/search?q=Florence+Yalls+Baseball" target="_blank">Florence Y'Alls Baseball</a></li>
-          <li><a href="https://www.google.com/search?q=Kentucky+Barrels+Football" target="_blank">Kentucky Barrels Football</a></li>
+        <!-- PROFESSIONAL SPORTS -->
+        <section class="sports-group">
+          <h2>Professional Sports Teams</h2>
 
-        </ul>
+          <ul class="place-list">
+
+            <li>
+              <a href="https://www.bengals.com/"
+                 target="_blank" rel="noopener noreferrer">
+                Cincinnati Bengals
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.mlb.com/reds"
+                 target="_blank" rel="noopener noreferrer">
+                Cincinnati Reds
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.fccincinnati.com/"
+                 target="_blank" rel="noopener noreferrer">
+                FC Cincinnati
+              </a>
+            </li>
+
+            <li>
+              <a href="https://cycloneshockey.com/"
+                 target="_blank" rel="noopener noreferrer">
+                Cincinnati Cyclones
+              </a>
+            </li>
+
+            <li>
+              <a href="https://florenceyalls.com/"
+                 target="_blank" rel="noopener noreferrer">
+                Florence Y'Alls Baseball
+              </a>
+            </li>
+
+          </ul>
+        </section>
+
+        <!-- COLLEGE SPORTS -->
+        <section class="sports-group">
+          <h2>College Athletics</h2>
+
+          <ul class="place-list">
+
+            <li>
+              <a href="https://gobearcats.com/"
+                 target="_blank" rel="noopener noreferrer">
+                UC Bearcats Basketball
+              </a>
+            </li>
+
+          </ul>
+        </section>
+
+        <!-- OTHER SPORTS & EVENTS -->
+        <section class="sports-group">
+          <h2>Other Sports & Events</h2>
+
+          <ul class="place-list">
+
+            <li>
+              <a href="https://cincinnatiopen.com/"
+                 target="_blank" rel="noopener noreferrer">
+                Cincinnati Open
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.cincinnatirollerderby.com/"
+                 target="_blank" rel="noopener noreferrer">
+                Cincinnati Roller Derby
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.google.com/search?q=Cincinnati+Cougars+sports"
+                 target="_blank" rel="noopener noreferrer">
+                Cincinnati Cougars
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.google.com/search?q=Kentucky+Barrels+Football"
+                 target="_blank" rel="noopener noreferrer">
+                Kentucky Barrels Football
+              </a>
+            </li>
+
+          </ul>
+        </section>
+
       </div>
 
+      <!-- FEATURED SPORTS -->
       <aside class="highlights">
 
         <article class="highlight">
-          <div class="art">Add Cincinnati Cyclones Image</div>
-          <strong>Cincinnati Cyclones</strong>
+          <div class="art">
+            Add Cincinnati Cyclones Image
+          </div>
+
+          <strong>Featured Team - Cincinnati Cyclones</strong>
+
+          <p>
+            Experience professional hockey in Cincinnati
+            at Heritage Bank Center.
+          </p>
+
+          <a href="https://cycloneshockey.com/"
+             target="_blank" rel="noopener noreferrer">
+            View Games & Tickets
+          </a>
         </article>
 
         <article class="highlight">
-          <div class="art">Add Cincinnati Roller Derby Image</div>
-          <strong>Cincinnati Roller Derby</strong>
+          <div class="art">
+            Add Cincinnati Roller Derby Image
+          </div>
+
+          <strong>Featured Sport - Cincinnati Roller Derby</strong>
+
+          <p>
+            Discover exciting local roller derby competitions
+            and upcoming events.
+          </p>
+
+          <a href="https://www.cincinnatirollerderby.com/"
+             target="_blank" rel="noopener noreferrer">
+            Visit Website
+          </a>
         </article>
 
       </aside>
@@ -59,17 +176,25 @@
 
     <hr class="rule">
 
+    <!-- SPORTS MAP -->
     <section class="map">
+
       <h2 class="display">Map</h2>
 
       <div class="map-box">
-        <a
-          href="https://www.google.com/maps/search/?api=1&query=Sports+Cincinnati+Ohio"
-          target="_blank"
-        >
-          View Cincinnati Sports on Google Maps
-        </a>
+
+        <iframe
+          title="Cincinnati Sports Map"
+          src="https://www.google.com/maps?q=Sports+Stadiums+Cincinnati+Ohio&output=embed"
+          width="100%"
+          height="350"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
       </div>
+
     </section>
 
   </main>
