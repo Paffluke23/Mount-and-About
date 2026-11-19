@@ -1,93 +1,83 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Home | Mount & About</title>
+  <title>Home | Mount & About</title>
 
-    <meta
-      name="description"
-      content="Explore restaurants, shopping, parks, sports, performing arts, and activities around Cincinnati."
-    />
+  <meta
+    name="description"
+    content="Explore restaurants, shopping, parks, sports, performing arts, and activities around Cincinnati."
+  >
 
-    <link rel="stylesheet" href="css/styles.css" />
-  </head>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-  <body>
-    <div data-include="partials/header.html"></div>
+<body>
 
-    <main class="shell">
-      <!-- UPCOMING EVENTS -->
-      <h1 class="title display">Upcoming Events</h1>
+  <div data-include="partials/header.html"></div>
 
-      <section class="events">
-        <article class="card">
-          <div class="art">
-            <img
-              src="c:\Users\carlo\OneDrive - msj.edu\Desktop\Applied social project\site images\pitbull.jpg"
-              alt="picture of the artist Pitbull"
-            />
-          </div>
-          <strong>PITBULL - Sept. 15</strong>
-          <p>Riverbend Music Center</p>
-        </article>
+  <main class="shell">
 
-        <article class="card">
-          <div class="art">Add Oktoberfest Image</div>
-          <strong>Oktoberfest - Sept. 17-20</strong>
-          <p>Sawyer Point Park</p>
-        </article>
+    <!-- CATEGORIES -->
+    <h1 class="title display">Categories</h1>
 
-        <article class="card">
-          <div class="art">Add Reds Image</div>
-          <strong>Reds v. Dodgers - Sept. 14</strong>
-          <p>Great American Ball Park</p>
-        </article>
+    <ul class="category-list">
+      <li>
+        <a href="shopping.html">Stores</a>
+      </li>
 
-        <article class="card">
-          <div class="art">Add Jack O'Lantern Glow Image</div>
-          <strong>Jack O'Lantern Glow - Oct. 2-31</strong>
-          <p>Cincinnati Zoo</p>
-        </article>
-      </section>
+      <li>
+        <a href="restaurants.html">Restaurants</a>
+      </li>
 
-      <!-- CATEGORIES -->
-      <h2 class="title display">Categories</h2>
+      <li>
+        <a href="parks.html">Parks & Recreation</a>
+      </li>
 
-      <ul class="category-list">
-        <li><a href="shopping.html">Stores</a></li>
-        <li><a href="restaurants.html">Restaurants</a></li>
-        <li><a href="parks.html">Parks & Recreation</a></li>
-        <li><a href="performing-arts.html">Performing Arts</a></li>
-        <li><a href="sports.html">Sports</a></li>
-        <li><a href="21-plus-activities.html">21+</a></li>
-      </ul>
+      <li>
+        <a href="performing-arts.html">Performing Arts</a>
+      </li>
 
-      <hr class="rule" />
+      <li>
+        <a href="sports.html">Sports</a>
+      </li>
 
-      <!-- MAP -->
-      <section class="map">
-        <h2 class="display">Map</h2>
+      <li>
+        <a href="21-plus-activities.html">21+</a>
+      </li>
+    </ul>
 
-        <div class="map-box">
+    <hr class="rule">
 
-  <iframe
-    title="Map of Cincinnati, Ohio"
-    src="https://www.google.com/maps?q=Cincinnati,Ohio&output=embed"
-    width="100%"
-    height="350"
-    style="border:0;"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
+    <!-- MAP -->
+    <section class="map">
 
-</div>
-      </section>
-    </main>
+      <h2 class="display">Map</h2>
 
-    <div data-include="partials/footer.html"></div>
+      <div class="map-box">
 
-    <script src="js/include.js"></script>
-  </body>
+        <iframe
+          title="Map of Cincinnati, Ohio"
+          src="https://www.google.com/maps?q=Cincinnati,Ohio&output=embed"
+          width="100%"
+          height="350"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <div data-include="partials/footer.html"></div>
+
+  <script src="js/include.js"></script>
+
+</body>
 </html>
